@@ -1,0 +1,71 @@
+/*main container do header */
+.class_header_root_container{
+    background-color: rgb(240, 78, 127);
+}
+.class_header_store_icon{
+    width: 170px;
+    margin: 0 40px 0 40px;
+}
+.class_header_row_contact{
+    text-align: right;
+    margin: 0 40px 0 40px;
+    font-size: 1.25rem;
+}
+.class_header_row_categorys{
+    text-align: center;
+
+}
+.class_header_col_dropdown_md{
+    margin: 0 10px 0 0;
+}
+/*search input */
+.class_header_search_input{
+    margin: 0 0 0 0;
+    max-width: 800px;
+}
+.class_header_col_search{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+/*dropdown btn */
+.btn-secondary:not(:disabled):not(.disabled).active,
+.btn-secondary:not(:disabled):not(.disabled):active,
+.show>.btn-secondary.dropdown-toggle {
+    color:#fff;
+    background-color: rgba(126, 50, 189,0.6);
+    border-color: rgb(126, 50, 189);
+}
+.class_header_dropdown_btn{
+    background-color: inherit;
+    color: rgb(255, 255, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-color: rgb(240, 78, 127);
+    
+}
+.class_header_dropdown_btn:hover{
+    background-color: rgba(126, 50, 189,0.6);
+    border-color: rgb(126, 50, 189);
+    
+}
+.class_header_dropdown_btn:focus{
+    background-color: rgba(126, 50, 189,0.6);
+    border-color: rgb(126, 50, 189);
+}
+.class_header_dropdown_btn:not(:disabled):not(.disabled):active{
+    background-color: rgba(126, 50, 189,0.6);
+    border-color: rgb(126, 50, 189);
+}
+.class_header_dropdown_btn:active{
+    background-color: rgba(126, 50, 189,0.6);
+    border-color: rgb(126, 50, 189);
+}
+/* contact*/
+.class_header_contact_whats{
+    
+}
+.class_header_contact_whats a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.3rem;
+}

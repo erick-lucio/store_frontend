@@ -1,0 +1,70 @@
+.class_faleconosco_root_container{
+    position: fixed;
+    width: auto;
+    height: auto;   
+    right: 0;
+    bottom: 0;
+}
+.class_faleconosco_img_whats{
+    width: 80px;
+}
+.class_faleconosco_root_row{
+    background-color: inherit;
+    transition: 1s;
+    height: 100px;
+    width: 250px;
+    padding-right: 0;
+    
+}
+#id_faleconosco_root_row{
+    display: none;
+}
+.class_faleconosco_root_row a{
+    text-decoration: none;
+    color: #ffffff;
+    text-shadow: 1px 2px black, 2px 1px black, 1px 0 black, 0 1px black;
+    font-size: 1.15rem;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    
+}
+.class_faleconosco_row_toggle{
+    text-align: right;
+    justify-content: right;
+    justify-items: right;
+    padding-right: 5px;
+}
+/* img icon */
+.class_faleconosco_message_icon{
+    width: 50px;
+    padding-right: 0;
+}
+.class_faleconosco_col_whats{
+    padding-right: 0;
+}
+
+.class_faleconosco_toggle_button{
+    background-color: transparent;
+    border-color: transparent;
+    padding-right: 0;
+}
+.class_faleconosco_toggle_button:hover{
+    background-color: transparent;
+    border-color: transparent;
+}
+.class_faleconosco_toggle_button:active{
+    background-color: transparent;
+    border-color: transparent;
+}
+.class_faleconosco_toggle_button:not(:disabled):not(.disabled).active,
+.class_faleconosco_toggle_button:not(:disabled):not(.disabled):active,
+.show>.class_faleconosco_toggle_button.dropdown-toggle {
+    background-color: transparent;
+    border-color: transparent;
+}
+.class_faleconosco_toggle_button:focus{
+    background-color: transparent;
+    border-color: transparent;
+    box-shadow: 0 0 0 .2rem transparent;
+}

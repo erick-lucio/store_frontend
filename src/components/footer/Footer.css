@@ -1,0 +1,45 @@
+
+.class_footer_root_container{
+    background-color:  #ec5de5;;
+}
+.class_footer_row1{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #b632af;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: rgb(255, 255, 255);
+    background-color: inherit;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.class_footer_payment_methods{
+    text-align: center;
+    background-color: inherit;
+    color: rgb(255, 255, 255);
+}
+.class_footer_row2{
+    border-bottom: 1px solid #b632af;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: rgb(255, 255, 255);
+    background-color: inherit;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.class_footer_row3{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    background-color: inherit;
+}
+.class_footer_row3 a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.class_footer_row3 a:hover{
+    color: rgb(255, 255, 255);
+}
