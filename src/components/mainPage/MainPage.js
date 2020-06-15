@@ -20,7 +20,7 @@ import img_box from '../../assets/imgs/img_box_exp.png'
 export default function MainPage(){
     window.scrollTo(0, 0); 
     const itens = [
-    {img_ulr:img_box,product_tittle:"Caixa de po",product_description:"Caixa pra vc guardar seus bang",product_price:"56,96",product_id:1},
+    {img_ulr:img_box,product_tittle:"Caixa de po",product_description:"Caixa pra vc guardar seus bang do natal passado pois o do ano passado e esse",product_price:"56,96",product_id:1},
     {img_ulr:img_box,product_tittle:"Caixa de po",product_description:"Caixa pra vc guardar seus bang",product_price:"56,96",product_id:2},
     {img_ulr:img_box,product_tittle:"Caixa de po",product_description:"Caixa pra vc guardar seus bang",product_price:"56,96",product_id:3},
     {img_ulr:img_box,product_tittle:"Caixa de po",product_description:"Caixa pra vc guardar seus bang",product_price:"56,96",product_id:4},
@@ -49,7 +49,7 @@ export default function MainPage(){
                                 <img src={element.img_ulr} className="class_mainpage_each_product_img"></img>
                                 <h3 className="class_mainpage_each_product_tittle">{element.product_tittle}</h3>
                                 <span className="class_mainpage_each_product_description">{element.product_description}</span>
-                                <h3 className="class_mainpage_each_product_price"><strong>R$ {element.product_price}</strong></h3>
+                                <h3 className="class_mainpage_each_product_price"><strong>R$ {element.product_price} A Vista</strong></h3>
                             </Link>
                         </Col>
                     ) 

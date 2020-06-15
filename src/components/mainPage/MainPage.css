@@ -1,5 +1,6 @@
 .class_mainpage_container{
     min-height: 80vh;
+    background-color: rgb(241, 224, 229);
 }
 .class_mainpage_products_row{
     text-align: center;

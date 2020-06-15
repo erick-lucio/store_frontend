@@ -69,3 +69,16 @@
     color: #fff;
     font-size: 1.3rem;
 }
+.class_header_img_search{
+    width: 40px;
+    cursor: pointer;
+}
+@media (min-width: 577px) {  /*sm */
+
+
+}
+@media (max-width: 576px) {  /*xs */
+    .class_header_dropdown_btn{
+        font-size: 1.1rem;
+    }
+}

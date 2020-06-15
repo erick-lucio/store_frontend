@@ -22,9 +22,10 @@ export default function FaleConosco(){
         if (row.style.display === "none") {
             row.style.display = "block";
             row.style.display = "block";
-
+            row.style.height = "auto"
         } else {
             row.style.display = "none";
+            row.style.height = "0"
         }
       } 
     return(
@@ -43,8 +44,7 @@ export default function FaleConosco(){
                             <Col className="class_faleconosco_col_whats">
                             <a href="https://api.whatsapp.com/send?phone=5531999986918&text=Ola%20Vim%20atraves%20do%20site%2CGostaria%20de%20conhecer%20melhor%20seus%20produtos." target="_blank">
                                  <span>Fale Conosco</span>
-                            </a>  
-                            <a href="https://api.whatsapp.com/send?phone=5531999986918&text=Ola%20Vim%20atraves%20do%20site%2CGostaria%20de%20conhecer%20melhor%20seus%20produtos." target="_blank">
+                            
                                 <img className="class_faleconosco_img_whats" src={img_whatsapp}></img>
                             </a>  
 

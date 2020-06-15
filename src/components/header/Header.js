@@ -14,6 +14,7 @@ import './Header.css';
 
 /*import imgs */
 import store_icon from '../../assets/imgs/img_store.png';
+import search_icon from '../../assets/imgs/img_icon_search.png';
 
 export default function Header(){
     const dispatch_func = useDispatch();
@@ -59,7 +60,7 @@ export default function Header(){
           //var myObject = JSON.parse(myjsonstring);
     }
     useEffect(() => {
-    //https://api.whatsapp.com/send?phone=5531999986918&text=Ola%20Vim%20atraves%20do%20site%2CGostaria%20de%20conhecer%20melhor%20seus%20produtos.
+    
     setre_render(!re_render);
     }, []);
     return(
@@ -72,10 +73,11 @@ export default function Header(){
                         </Link>
                     </Col>
                     <Col md="10" className="class_header_col_search">
-                        <Input placeholder="Precisa de algo?" className="class_header_search_input"> </Input>
+                        <Input placeholder="Precisa de algo?" className="class_header_search_input"></Input>
+                        <img className="class_header_img_search" src={search_icon} onClick={()=>alert("pesquisar")}></img>
                     </Col>
                 </Row>
-                <Row className="class_header_row_categorys">
+                <Row className="class_header_row_categorys d-none d-md-flex">
                     <Col md="1" className="class_header_col_dropdown_md">
                         <Dropdown isOpen={dropdown1} toggle={toggle1}>
                             <DropdownToggle caret className="class_header_dropdown_btn">
